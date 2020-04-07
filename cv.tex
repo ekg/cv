@@ -1,0 +1,308 @@
+\documentclass[12pt,hidelinks,letterpaper]{article}
+\usepackage[margin=0.75in,top=0.75in,footskip=0.5in]{geometry}
+\usepackage{comment}
+
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+% use Unicode characters - try changing the option if you run into troubles with special characters (e.g. umlauts)
+\usepackage[utf8]{inputenc}
+
+% clean citations
+\usepackage{cite}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% hyperref makes references clicky. use \url{www.example.com} or \href{www.example.com}{description} to add a clicky url
+\usepackage{nameref,hyperref}
+
+% line numbers
+%\usepackage[right]{lineno}
+
+% improves typesetting in LaTeX
+\usepackage{microtype}
+\DisableLigatures[f]{encoding = *, family = * }
+
+\usepackage[ampersand]{easylist}
+
+% Remove % for double line spacing
+%\usepackage{setspace} 
+%\doublespacing
+
+% use adjustwidth environment to exceed text width (see examples in text)
+\usepackage{changepage}
+
+% use \textcolor{color}{text} for colored text (e.g. highlight to-do areas)
+\usepackage{color}
+
+% this is required to include graphics
+\usepackage{graphicx}
+
+% use for have text wrap around figures
+\usepackage{wrapfig}
+
+%\usepackage{setspace}
+%\doublespacing
+\usepackage{multicol}
+
+% document begins here
+\begin{document}
+
+%Erik Garrison
+% title goes here:
+\begin{flushleft}
+{\huge
+  \textbf{Erik Garrison}
+}
+\vspace*{0.05in}
+\newline
+{\large
+      \href{mailto:erik.garrison@gmail.com}{email}
+      \href{https://twitter.com/erikgarrison}{twitter}
+      \href{https://github.com/ekg}{code}
+      \href{https://scholar.google.com/citations?user=d5TKoncAAAAJ&hl=en}{papers}
+      }
+      
+%{
+        +1 502 382 6005 \\
+        +39 320 244 2758 \\
+        Vico San Pietro a Maiella, 6 \\
+        80138 Napoli, NA, Italy \\
+ %   }
+\end{flushleft}
+
+\hfill \break
+\noindent
+{\LARGE \bf Education}
+
+\hfill \break
+\noindent
+{\large \bf PhD in Genomics \\
+  Cambridge University
+} \\
+\emph{October 2014 $\to$ January 2019} \\
+\noindent
+% and Wellcome Sanger Institute
+Student at the Wellcome Sanger Institute.
+Advised by Richard Durbin.
+Thesis ``Graphical pangenomics'' put forward methods of using pangenomes encoded in sequence \emph{variation graphs} in alignment and genome inference.
+Led the development of \textsc{vg}, an open source toolkit enabling the use of genome graphs in bioinformatic analysis.
+Visiting researcher at Stazione Zoologica Anton Dohrn and visiting student at Cambridge Genetics.
+Explored applications of variation graphs to analyses in population genetics, ancient DNA, marine biology, metagenomics, and genome assembly.
+
+\hfill \break
+\noindent
+{\large \bf Bachelor of Arts in Social Studies \\ Harvard University} \\
+\emph{Fall 2002 $\to$ Spring 2006} \\
+\noindent
+Undergraduate Fellow, Harvard Institute for Quantitative Social Science. Senior thesis focused on the relationship between social structure and communication technologies. Electives included classes in functional programming, theoretical computer science, peer-to-peer networks, and linear algebra. Spanish language citation. Rower from 2002 to 2005.
+
+\hfill \break
+\hfill \break
+\noindent
+{\LARGE \bf Employment}
+
+\hfill \break
+\noindent
+{\large \bf University of California, Santa Cruz} \\
+\emph{February 2019 $\to$ present} \\
+\noindent
+Postdoctoral Fellow with Benedict Paten.
+Developing scalable methods for pangenomic analysis based on genome variation graphs.
+
+\hfill \break
+\noindent
+{\large \bf DNAnexus} \\
+\emph{September 2015 $\to$ March 2018} \\
+\noindent
+Part-time contractor with research and development team. Explored machine learning based approaches to variant calling as part of the PrecisionFDA Challenge, producing the \textsc{hhga} variant caller.
+Maintenance, development, and continued support of \textsc{vcflib} and \textsc{freebayes}.
+
+\hfill \break
+\noindent
+{\large \bf Boston College} \\
+\emph{February 2010 $\to$ September 2014} \\
+Research associate in the laboratory of Gabor Marth.
+Designed and implemented \textsc{freebayes}, a genetic variant detector designed for short-read sequencing data.
+Developed tools to manipulate sequencing data and descriptions of genetic variation.%, including \textsc{vcflib}.
+Wrote first haplotype and graph-based variant detection methods for short-read sequencing data.
+Generated the final 1000 Genomes Project release, and helped to produce its paper as part of the project writing group.
+%Major contributor to the 1000 Genomes Project in variant detection, data integration, and functional interpretation, and the final project result.
+
+%\newpage
+
+\hfill \break
+\noindent
+{\large \bf The Echonest} \\
+\emph{January 2009 $\to$ May 2009} \\
+%Somerville, Massachusetts, USA
+Contractor. Designed and implemented control and monitoring systems to manage a compute cluster deployed in the Amazon EC2 cloud.
+
+\hfill \break
+\noindent
+{\large \bf One Laptop Per Child} \\
+\emph{May 2008 $\to$ January 2009} \\
+%Cambridge, Massachusetts, USA
+Software engineer. Focused on operating system build processes, customer support, maintenance, software design planning, communication among a globally-dispersed group of volunteers and educators.
+
+\hfill \break
+\noindent
+{\large \bf Harvard Medical School} \\
+\emph{August 2006 $\to$ April 2008} \\
+%Boston, Massachusetts, USA
+Contractor in the laboratory of George Church. Designed, wrote, and tested data acquisition and system control software for the "Polonator" open-source DNA sequencing device.
+
+\hfill \break
+\noindent
+{\large \bf National Bureau of Economic Research} \\
+\emph{May 2006 $\to$ May 2007} \\
+%Cambridge, Massachusetts, USA
+Research assistant. Wrote software to efficiently process Wikipedia's XML-based data dumps (\textsc{wikiq}), and evaluated metrics of user contribution. Analyzed data related to the internationalization of clinical trials.
+
+\hfill \break
+\noindent
+{\large \bf Harvard Kennedy School of Government} \\
+\emph{January 2005 $\to$ September 2005} \\
+%Cambridge, Massachusetts, USA
+Research assistant. Obtained and processed data for country-level quantitative studies of terrorism and violent extremism.
+
+\hfill \break
+\hfill \break
+\noindent
+{\LARGE \bf Research}
+
+\hfill \break
+\noindent
+I build scalable computational approaches to infer genomes from DNA sequencing data.
+My work on this topic began with the development of Bayesian methods to detect and genotype genomic variants, with application of these methods to the thousands of human genomes cataloged in the 1000 Genomes Project.
+Lessons learned in that effort guided me to work on unbiased methods for genome inference based on graphical models of pangenomes.
+In these, the genome is encoded in a graph that may represent a population sample of individuals from the same species, a metagenome, the diploid genome of a single individual, or any other useful collection of genomic sequence information.
+I have shown that this approach provides more accurate alignment of reads when it is possible to construct a high-quality pangenome.
+%.%, and am currently exploring applications of this method.
+%and that graphical models suitable 
+
+I develop and share my source code publicly (\url{https://github.com/ekg}) under permissive open licenses.
+I am a frequent reviewer for \emph{Bioinformatics}, \emph{Nature Biotechnology}, and \emph{Nucleic Acids Research}.
+I am a review editor for \emph{Frontiers in Genetics}, \emph{Frontiers in Plant Science}, and \emph{Frontiers in Bioengineering and Biotechnology}.
+I have supported the following written works:
+%I maintain an overview of my contributions at
+%\url{https://scholar.google.com/citations?user=d5TKoncAAAAJ}.
+
+
+\newpage
+
+\begingroup
+\let\oldthebibliography\thebibliography
+\let\endoldthebibliography\endthebibliography
+\renewenvironment{thebibliography}[1]{
+  \begin{oldthebibliography}{#1}
+    \setlength{\itemsep}{0em}
+    \setlength{\parskip}{0em}
+}
+{
+  \end{oldthebibliography}
+}
+\renewcommand{\section}[2]{}%
+\bibliographystyle{unsrt}
+%\subsection*{References}
+\bibliography{references}
+\endgroup
+
+\newpage
+%\hfill \break
+\hfill \break
+\noindent
+{\LARGE \bf Selected talks}
+
+\noindent
+\begin{easylist}
+  \ListProperties(Hide=100, Hang=true, Progressive=3ex, Style*=$\multimap $ ,Style2*=$\bullet$ ,Style3*=$\circ$ ,Style4*=\tiny$\blacksquare$)
+  & Variation graphs for efficient unbiased pangenomic sequence interpretation. Biology of Genomes. Cold Spring Harbor, 2018. \url{https://www.youtube.com/watch?v=WWVl1XPpENE}
+  & Resequencing against a pangenome. NBDC/DBCLS BioHackathon. Keio University. Tsuruoka, Japan, 2016. \url{https://www.youtube.com/watch?v=kgwBMiMs4pA}
+& Variant detection using a graph of genomic variation. Advances in Genome Biology and Technology, 2014.
+& From short reads to genotypes, haplotypes, and frequencies. Penn State, 2014.
+& A generalized human reference as a graph of genomic variation.  American Society of Human Genetics, 2013.
+& Simultaneous assembly of thousands of human genomes.  Biology of Genomes, 2013. \url{https://vimeo.com/95222169}
+& Haplotype-based variant detection and interpretation enables the population-scale analysis of multi-nucleotide sequence variants.  American Society of Human Genetics, 2012.
+& Haplotype-based variant detection from short-read sequencing.  Biology of Genomes, 2012.
+\end{easylist}
+
+
+\hfill \break
+\hfill \break
+\noindent
+{\LARGE \bf Teaching}
+
+\noindent
+\begin{easylist}
+  \ListProperties(Hide=100, Hang=true, Progressive=3ex, Style*=$\multimap $ ,Style2*=$\bullet$ ,Style3*=$\circ$ ,Style4*=\tiny$\blacksquare$)
+  & Course lead and instructor. Computational Pangenomics. Instituto Gulbenkian de Ciência. Oieras, Portugal. March 2018.
+  & Instructor. NGS alignment and variant calling practical. OBiLab, Consiglio Nazionale delle Ricerche. Napoli, Italy. April 2015.
+  & Instructor. Biology for Adaptation Genomics. Weggis, Switzerland. Winters 2015-2018.
+  & Instructor. Wellcome Genome Campus Advanced Course on Next Generation Sequencing Bioinformatics. Hinxton, UK. November 2015.
+  & Guest lecturer. Iowa Bioinformatics Summer. Iowa City, Iowa, USA. May 2015.
+  & Instructor. SeqShop. University of Michigan. Ann Arbor, Michigan, USA. June 2014 and May 2015.
+  & Trainer. Galaxy Community Conference 2013. Oslo, Norway. June 2013.
+  \end{easylist}
+
+\hfill \break
+\hfill \break
+\noindent
+{\LARGE \bf Funding}
+
+\noindent
+\begin{easylist}
+  \ListProperties(Hide=100, Hang=true, Progressive=3ex, Style*=$\multimap $ ,Style2*=$\bullet$ ,Style3*=$\circ$ ,Style4*=\tiny$\blacksquare$)
+  & Undergraduate Fellow. Harvard Institute for Quantitative Social Science. 2005-2006.
+  & PhD fellowship. Wellcome Trust. 2014-2018.
+  & Discovery Project Grant DP190103705. Australian Research Council. 2019-2021.
+\end{easylist}
+
+\hfill \break
+\hfill \break
+\noindent
+{\LARGE \bf Languages}
+
+\hfill \break
+\noindent
+Native English. Fluent Italian. Conversational Spanish.
+
+
+% references in order
+
+% {\tiny {\color{white} \cite{garrison2012haplotype,garrison2018variation}} {\color{white} \cite{10002010map,10002015global,gravel2011demographic,stewart2011comprehensive,barnett2011bamtools,10002012integrated,lee2014mosaik,khurana2013integrative,zhao2013ssw,colonna2014human,colonna2014human,chiang2015speedseq,challis2015distribution,cocca2015purging,sudmant2015integrated,computational2016computational,poznik2016punctuated,novak2016graph,novak2017genome,paten2018superbubbles,paten2017genome,dawson2017germline,novak2017graph,waszak2017germline,delaneau2014integrating,siren2018haplotype,lee2014mosaik,garg2018graph,dawson2018rkmh,novak2017genome,paten2017genome,colonna2018genomic}}}
+
+{\tiny {\color{white} \cite{
+      hickey2019genotyping,
+      garrison2018variation,
+      siren2018haplotype,
+      colonna2018genomic,
+      paten2018superbubbles,
+      garg2018graph,
+      dawson2018rkmh,
+      novak2017genome,
+      paten2017genome,
+      dawson2017germline,
+      novak2017graph,
+      waszak2017germline,
+      computational2016computational,
+      poznik2016punctuated,
+      10002015global,
+      chiang2015speedseq,
+      challis2015distribution,
+      cocca2015purging,
+      sudmant2015integrated,
+      delaneau2014integrating,
+      lee2014mosaik,
+      colonna2014human,
+      khurana2013integrative,
+      zhao2013ssw,
+      garrison2012haplotype,
+      10002012integrated,
+      gravel2011demographic,
+      stewart2011comprehensive,
+      barnett2011bamtools,
+      10002010map}}}
+
+\end{document}
