@@ -1,4 +1,4 @@
-\documentclass[12pt,hidelinks,letterpaper]{article}
+\documentclass[11pt,hidelinks,letterpaper]{article}
 \usepackage[margin=0.75in,top=0.75in,footskip=0.5in]{geometry}
 \usepackage{comment}
 
@@ -56,26 +56,25 @@
   \textbf{Erik Garrison}
 }
 \vspace*{0.05in}
-%\newline
-\begin{comment}
+\newline
+%\begin{comment}
 {\large
       \href{mailto:erik.garrison@gmail.com}{email}
       \href{https://twitter.com/erikgarrison}{twitter}
       \href{https://github.com/ekg}{code}
       \href{https://scholar.google.com/citations?user=d5TKoncAAAAJ&hl=en}{papers}
 }
-\end{comment}
+%\end{comment}
       
 {\small
-        erik.garrison@gmail.com \\
-        +1 502 382 6005 \\
-        %/ +39 320 244 2758 \\
-        5505 Harvest Scene Ct, Columbia, MD 21044, USA \\
-        %Via Saverio Nitti, 3, 85024 Lavello PZ, Italy
+  erik.garrison@gmail.com \\
+  +1 781 473 0508 / +39 320 244 2758 \\
+  US: 5505 Harvest Scene Ct, Columbia, MD 21044, United States \\
+  EU: Via F. S. Nitti, 3, 85024 Lavello PZ, Italy \\
     }
 \end{flushleft}
 
-\begin{comment}
+%\begin{comment}
 {\large
   Genomicist with a quantitative social science background.
   Harvard undergrad, Cambridge PhD.
@@ -85,7 +84,7 @@
   Born in Kentucky, matured in Massachusetts, honed in England.
   Lives in Italy and travels the world, both physically and virtually.
 }
-\end{comment}
+%\end{comment}
 
 \hfill \break
 \noindent
@@ -120,20 +119,22 @@ Undergraduate Fellow, Harvard Institute for Quantitative Social Science. Senior 
 
 \hfill \break
 \noindent
-{\large \bf University of Tennessee Health Science Center} \\
+{\large \bf University of Tennessee Health Science Center, Memphis} \\
 \emph{December 2020 $\to$ present} \\
 \noindent
-Assistant Professor, department of Genetics, Genomics and Informatics.
-Research focus on pangenome assembly and analysis.
-Participant in the Human Pangenome Reference Consortium, member of the assembly group, co-chair of the Pangenomes working group.
+Assistant Professor, department of Genetics, Genomics, and Informatics.
+Design and implementation of a unified process to build a pangenome graph from hundreds of eukaryotic genome assemblies.
+Application of the approach to human and mouse pangenomes.
+Co-chair of Human Pangenome Reference Consortium (HPRC) Pangenomes Working Group.
 
 \hfill \break
 \noindent
 {\large \bf University of California, Santa Cruz} \\
-\emph{February 2019 $\to$ present} \\
+\emph{February 2019 $\to$ November 2020} \\
 \noindent
 Postdoctoral Fellow with Benedict Paten.
-Developing scalable methods for pangenomic analysis based on genome variation graphs.
+Developed scalable methods for pangenomic analysis based on genome variation graphs.
+Participant in the HPRC assembly group and telomere-to-telomere consortium.
 
 \hfill \break
 \noindent
@@ -197,17 +198,17 @@ Research assistant. Obtained and processed data for country-level quantitative s
 
 \hfill \break
 \noindent
-I build scalable computational approaches to infer genomes from DNA sequencing data.
+I build methods that let us understand the precise relationships between thousands of genomes.
 My work on this topic began with the development of Bayesian methods to detect and genotype genomic variants, with application of these methods to the thousands of human genomes cataloged in the 1000 Genomes Project.
 Lessons learned in that effort guided me to work on unbiased methods for genome inference based on graphical models of pangenomes.
 In these, the genome is encoded in a graph that may represent a population sample of individuals from the same species, a metagenome, the diploid genome of a single individual, or any other useful collection of genomic sequence information.
-I have shown that this approach provides more accurate alignment of reads when it is possible to construct a high-quality pangenome.
+I have shown that this approach provides more accurate alignment of reads when it is possible to construct a high-quality pangenome, and am currently applying it to the construction of pangenome graphs for humans as part of the HPRC.
 %.%, and am currently exploring applications of this method.
 %and that graphical models suitable 
 
 I develop and share my source code publicly (\url{https://github.com/ekg}) under permissive open licenses.
-I am a frequent reviewer for \emph{Bioinformatics}, \emph{Nature Biotechnology}, and \emph{Nucleic Acids Research}.
-I am a review editor for \emph{Frontiers in Genetics}, \emph{Frontiers in Plant Science}, and \emph{Frontiers in Bioengineering and Biotechnology}.
+I have reviewed for \emph{Bioinformatics}, \emph{Genetics}, \emph{Genome Research}, \emph{Nature}, \emph{Nature Biotechnology}, \emph{Nature Communications}, and \emph{Nucleic Acids Research}.
+%I am a review editor for \emph{Frontiers in Genetics}, \emph{Frontiers in Plant Science}, and \emph{Frontiers in Bioengineering and Biotechnology}.
 I have supported the following written works:
 %I maintain an overview of my contributions at
 %\url{https://scholar.google.com/citations?user=d5TKoncAAAAJ}.
@@ -229,7 +230,9 @@ I have supported the following written works:
 \renewcommand{\section}[2]{}%
 \bibliographystyle{unsrt}
 %\subsection*{References}
-\bibliography{references}
+{\footnotesize
+  \bibliography{references}
+}
 \endgroup
 
 %\newpage
@@ -241,6 +244,8 @@ I have supported the following written works:
 \noindent
 \begin{easylist}
   \ListProperties(Hide=100, Hang=true, Progressive=3ex, Style*=$\multimap $ ,Style2*=$\bullet$ ,Style3*=$\circ$ ,Style4*=\tiny$\blacksquare$)
+  & Understanding all variation in telomere-to-telomere assemblies. ALPACA conference, 2021.
+  & The pluralistic promise of pangenome graphs. Workshop in Algorithms on Bioinformatics, 2020.
   & Untangling the pangenome. Cambridge Computational Biology Institute Symposium, 2019.
   & Variation graphs for efficient unbiased pangenomic sequence interpretation. Biology of Genomes. Cold Spring Harbor, 2018. \url{https://www.youtube.com/watch?v=WWVl1XPpENE}
   & Resequencing against a pangenome. NBDC/DBCLS BioHackathon. Keio University. Tsuruoka, Japan, 2016. \url{https://www.youtube.com/watch?v=kgwBMiMs4pA}
@@ -261,6 +266,7 @@ I have supported the following written works:
 \noindent
 \begin{easylist}
   \ListProperties(Hide=100, Hang=true, Progressive=3ex, Style*=$\multimap $ ,Style2*=$\bullet$ ,Style3*=$\circ$ ,Style4*=\tiny$\blacksquare$)
+  & Instructor. Advanced Bioinformatics course. Utrecht Bioinformatics Center. May 2021.
   & Course lead and instructor. Computational Pangenomics. Instituto Gulbenkian de Ciência. Oieras, Portugal. March 2018 and September 2019.
   & Instructor. NGS alignment and variant calling practical. OBiLab, Consiglio Nazionale delle Ricerche. Napoli, Italy. April 2015.
   & Instructor. Biology for Adaptation Genomics. Weggis, Switzerland. Winters 2015-2018.
@@ -278,11 +284,11 @@ I have supported the following written works:
 \noindent
 \begin{easylist}
   \ListProperties(Hide=100, Hang=true, Progressive=3ex, Style*=$\multimap $ ,Style2*=$\bullet$ ,Style3*=$\circ$ ,Style4*=\tiny$\blacksquare$)
-  & Undergraduate Fellow. Harvard Institute for Quantitative Social Science. 2005-2006.
-  & PhD fellowship. Wellcome Trust. 2014-2018.
-  & Australian Research Council. DP190103705. Australian Heritage: Constructing the first Aboriginal reference genome. 2019-2021. (co-investigator)
+  & Undergraduate Fellow. Harvard Institute for Quantitative Social Science. 2005-2006. (student)
+  & PhD fellowship. Wellcome Trust. 2014-2018. (student)
+  & Discovery Project Grant DP190103705. Australian Research Council. 2019-2021. (CI)
   & NLnet Foundation NGI0 Discovery Fund. \href{https://nlnet.nl/project/VariationGraph/}{Privacy-preserving varation graphs}. 2020. (PI)
-  & NIH/NHGRI U01HG010961. The construction and utility of reference pan-genome graphs. 2020-2023. (co-investigator)
+  & NSF \#2118709 PPoSS: LARGE: Panorama: Integrated Rack-Scale Acceleration for Computational Pangenomics. 2021-2026. (PI)
 \end{easylist}
 
 \hfill \break
@@ -298,23 +304,35 @@ Native English. Fluent Italian. Conversational Spanish.
 % references in order
 
 {\tiny {\color{white} \cite{
+      siren_2021_giraffe,
+      Guarracino:2021,
+      Nurk_2021,
+      Rhie_2021,
+      Sibbesen_2021,
+      Tognon_2021,
+      Smith_2021,
+      chin2020diploid,
+      Martiniano_2020,
+      eizenga2020pangenome,
+      eizenga2020handlegraph,
+      Smith_2020,
+      pcawg2020pancancer,
+      shafin2020nanopore,
       hickey2020genotyping,
-      siren2020haplotype,
-      martiniano2019removing,
+      Siren:2020_gbwt,
       gurdasani2019uganda,
-      chin2019diploid,
       llamas2019strategy,
       dawson2019viral,
       colonna2019genomic,
-      garrison2018variation,
+      Garrison:2018,
       paten2018superbubbles,
       garg2018graph,
+      cpang2018,
       novak2017genome,
       paten2017genome,
       dawson2017germline,
       novak2017graph,
       waszak2017germline,
-      computational2016computational,
       poznik2016punctuated,
       10002015global,
       chiang2015speedseq,
