@@ -76,9 +76,9 @@
 }
 \end{flushleft}
 
-%\begin{comment}
-{\large
-  Genomicist with a quantitative social science background.
+\begin{comment}
+{\it \large
+  Pangenomicist with a quantitative social science background.
   Harvard undergrad, Cambridge PhD.
   Learned in the ways of free culture.
   Sharing in the powers of free software.
@@ -86,43 +86,44 @@
   Born in Kentucky, matured in Massachusetts, honed in England.
   Lives in Tennessee and Italy, travelling the world, both physically and virtually.
 }
+\end{comment}
+
+%\hfill
+
+%\begin{comment}
+{\large
+  I am a computational biologist working as an assistant professor at the University of Tennessee Health Science Center in Memphis.
+  %Although my research journey began in the social sciences, my work focuses on understanding sequence variation in collections of complete genomes.
+  %I build methods to understand 
+  %I was drawn to computational biology because my studies in the social sciences suggested that free/open-source software communities were a context
+  %n interest in free/open-source software which I developed during an ethnographic study of collaborative content creation.
+  Although my research journey began in the social sciences, for most of my career I've worked in bioinformatics, a field where clear ideas and their implementation in open code can move the world.
+  I have worked on methods to read genomes and understand their variation, looking at all scales, from small point mutations to chromosome-scale rearrangements, and working on collections of thousands of genomes from humans and other model species.
+  %Bioinformatics gives us tools through which we can understand genomes and in turn many aspects of living things.
+  As we have developed improved methods to sequence DNA, bioinformatics' importance has expanded and now most areas of biology can be interpreted digitally.
+  Inspired by this progression, my ongoing research envisions a future in which we can synthesize DNA as easily as we can now read it.
+  %These possibilities hint at a future in which the biological and computational are deeply linked in both directions.
+}
 %\end{comment}
 
-\hfill \break
-\noindent
-{\LARGE \bf Education}
+\begin{comment}
+{\large
+  I am a computational biologist. I work as an assistant professor at the University of Tennessee Health Science Center in Memphis.
+  %I'm an Assistant Professor at the University of Tennessee Health Science Center in Memphis, specializing in computational biology.
+  I started in quantitative social science, then moved to genomes, focusing on their variation.
+  I learned the importance of open-source software through studying collaboration, which led me to bioinformatics.
+  Now, I'm researching how to synthesize DNA as easily as we read it.
+}
+\end{comment}
 
 \hfill \break
 \noindent
-{\large \bf PhD in Genomics \\
-  Cambridge University
-} \\
-\emph{October 2014 $\to$ January 2019} \\
-\noindent
-% and Wellcome Sanger Institute
-Student at the Wellcome Sanger Institute.
-Advised by Richard Durbin.
-Thesis ``Graphical pangenomics'' put forward methods of using pangenomes encoded in sequence \emph{variation graphs} in alignment and genome inference.
-Led the development of \textsc{vg}, an open source toolkit enabling the use of genome graphs in bioinformatic analysis.
-Visiting researcher at Stazione Zoologica Anton Dohrn and visiting student at Cambridge Genetics.
-Explored applications of variation graphs to analyses in population genetics, ancient DNA, marine biology, metagenomics, and genome assembly.
-
-\hfill \break
-\noindent
-{\large \bf Bachelor of Arts in Social Studies \\ Harvard University} \\
-\emph{Fall 2002 $\to$ Spring 2006} \\
-\noindent
-Undergraduate Fellow, Harvard Institute for Quantitative Social Science. Senior thesis focused on the relationship between social structure and communication technologies. Electives included classes in functional programming, theoretical computer science, peer-to-peer networks, and linear algebra. Spanish language citation. Rower from 2002 to 2005.
-
-\hfill \break
-\hfill \break
-\noindent
-{\LARGE \bf Employment}
+{\LARGE \bf Work}
 
 \hfill \break
 \noindent
 {\large \bf University of Tennessee Health Science Center, Memphis} \\
-\emph{December 2020 $\to$ present} \\
+\emph{December 2020 $\to$ \underline{present {\LARGE $\ast$}}} \\
 \noindent
 Assistant Professor, department of Genetics, Genomics, and Informatics.
 Design and implementation of a unified process to build a pangenome graph from hundreds of eukaryotic genome assemblies.
@@ -134,7 +135,7 @@ Co-chair of Human Pangenome Reference Consortium (HPRC) Pangenomes Working Group
 {\large \bf University of California, Santa Cruz} \\
 \emph{February 2019 $\to$ November 2020} \\
 \noindent
-Postdoctoral Fellow with Benedict Paten.
+Postdoctoral Fellow. % with Benedict Paten.
 Developed scalable methods for pangenomic analysis based on genome variation graphs.
 Participant in the HPRC assembly group and telomere-to-telomere consortium.
 
@@ -196,24 +197,54 @@ Research assistant. Obtained and processed data for country-level quantitative s
 \hfill \break
 \hfill \break
 \noindent
+{\LARGE \bf Education}
+
+\hfill \break
+\noindent
+{\large \bf PhD in Genomics \\
+  Cambridge University
+} \\
+\emph{October 2014 $\to$ January 2019} \\
+\noindent
+% and Wellcome Sanger Institute
+Student at the Wellcome Sanger Institute.
+Advised by Richard Durbin.
+Thesis ``Graphical pangenomics'' put forward methods of using pangenomes encoded in sequence \emph{variation graphs} in alignment and genome inference.
+Led the development of \textsc{vg}, an open source toolkit enabling the use of genome graphs in bioinformatic analysis.
+Visiting researcher at Stazione Zoologica Anton Dohrn and visiting student at Cambridge Genetics.
+Explored applications of variation graphs to analyses in population genetics, ancient DNA, marine biology, metagenomics, and genome assembly.
+
+\hfill \break
+\noindent
+{\large \bf Bachelor of Arts in Social Studies \\ Harvard University} \\
+\emph{Fall 2002 $\to$ Spring 2006} \\
+\noindent
+Undergraduate Fellow, Harvard Institute for Quantitative Social Science. Senior thesis focused on the relationship between social structure and communication technologies. Electives included classes in functional programming, theoretical computer science, peer-to-peer networks, and linear algebra. Spanish language citation. Rower from 2002 to 2005.
+
+\hfill \break
+\hfill \break
+\noindent
 {\LARGE \bf Research}
 
 \hfill \break
 \noindent
 I build methods that let us understand the precise relationships between thousands of genomes.
-My work on this topic began with the development of Bayesian methods to detect and genotype genomic variants, with application of these methods to the thousands of human genomes cataloged in the 1000 Genomes Project.
+My work on this topic began with the development of Bayesian methods to detect and genotype genomic variants (Garrison and Marth, 2012, \textit{arXiv}), with application of these methods to the thousands of human genomes cataloged in the 1000 Genomes Project (1000 Genomes Project Consortium et. al., 2015, \textit{Nature}).
 Lessons learned in that effort guided me to work on unbiased methods for genome inference based on graphical models of pangenomes.
 In these, the genome is encoded in a graph that may represent a population sample of individuals from the same species, a metagenome, the diploid genome of a single individual, or any other useful collection of genomic sequence information.
-I have shown that this approach provides more accurate alignment of reads when it is possible to construct a high-quality pangenome, and am currently applying it to the construction of pangenome graphs for humans as part of the HPRC.
+I have shown that this approach provides more accurate alignment of reads when it is possible to construct a high-quality pangenome (Garrison et. al., 2018, \textit{Nature Biotechnology}).
+We are currently using this model to build and use pangenome graphs in the Human Pangenome Reference Consortium.
+Our first efforts have produced a draft human pangenome (Liao et. al., 2023, \textit{Nature}).
+By applying unbiased analysis methods to the pangenome, we confirmed that heterologous acrocentric chromosomes recombine (Guarracino et. al., 2023, \textit{Nature})---a hypothesis that stood for fifty years without resolution.
+On the way to these results, I have participated in projects to create the first complete human genome assembly (Nurk et. al., 2022, \textit{Science}) and the first collection of complete assemblies for vertebrates (Rhie et. al., 2021, \textit{Nature}).
 %.%, and am currently exploring applications of this method.
 %and that graphical models suitable
 
 I develop and share my source code publicly (\url{https://github.com/ekg}) under permissive open licenses.
 I have reviewed for \emph{Bioinformatics}, \emph{Genetics}, \emph{Genome Research}, \emph{Nature}, \emph{Nature Biotechnology}, \emph{Nature Communications}, and \emph{Nucleic Acids Research}.
 %I am a review editor for \emph{Frontiers in Genetics}, \emph{Frontiers in Plant Science}, and \emph{Frontiers in Bioengineering and Biotechnology}.
+I maintain an overview of my contributions at: \url{https://scholar.google.com/citations?user=d5TKoncAAAAJ}.
 I have supported the following written works:
-%I maintain an overview of my contributions at
-%\url{https://scholar.google.com/citations?user=d5TKoncAAAAJ}.
 
 
 %\newpage
@@ -306,6 +337,24 @@ Native English. Fluent Italian. Conversational Spanish.
 % references in order
 
 {\tiny {\color{white} \cite{
+      guarracino2023recombination,
+      liao2023draft,
+      garrison2023building,
+      garrison2023unbiased,
+      porubsky2023gaps,
+      kille2023minmers,
+      sibbesen2023haplotype,
+      garrison2022spectrum,
+      nurk2022complete,
+      guarracino2022odgi,
+      jarvis2022automated,
+      braun2022virgin,
+      marco2023optimal,
+      wang2022human,
+      mwaniki2022fast,
+      jarvis2022semi,
+      de2023revamped,
+      sperling2022virgin,
       siren_2021_giraffe,
       Guarracino:2021,
       Nurk_2021,
