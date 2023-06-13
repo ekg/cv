@@ -222,8 +222,8 @@ Undergraduate Fellow, Harvard Institute for Quantitative Social Science. Senior 
 \hfill \break
 \noindent
 {\LARGE \bf Research}
-
 \hfill \break
+
 \noindent
 I build methods that let us understand the precise relationships between thousands of genomes.
 My work on this topic began with the development of Bayesian methods to detect and genotype genomic variants (Garrison and Marth, 2012, \textit{arXiv}), with application of these methods to the thousands of human genomes cataloged in the 1000 Genomes Project (1000 Genomes Project Consortium et. al., 2015, \textit{Nature}).
@@ -231,49 +231,45 @@ Lessons learned in that effort guided me to work on unbiased methods for genome 
 In these, the genome is encoded in a graph that may represent a population sample of individuals from the same species, a metagenome, the diploid genome of a single individual, or any other useful collection of genomic sequence information.
 I have shown that this approach provides more accurate alignment of reads when it is possible to construct a high-quality pangenome (Garrison et. al., 2018, \textit{Nature Biotechnology}).
 We are currently using this model to build and use pangenome graphs in the Human Pangenome Reference Consortium.
+
 Our first efforts have produced a draft human pangenome (Liao et. al., 2023, \textit{Nature}).
 By applying unbiased analysis methods to the pangenome, we confirmed that heterologous acrocentric chromosomes recombine (Guarracino et. al., 2023, \textit{Nature})---a hypothesis that stood for fifty years without resolution.
 On the way to these results, I have participated in projects to create the first complete human genome assembly (Nurk et. al., 2022, \textit{Science}) and the first collection of complete assemblies for vertebrates (Rhie et. al., 2021, \textit{Nature}).
 %.%, and am currently exploring applications of this method.
 %and that graphical models suitable
 
+My current work focuses on three areas:
+\begin{easylist}
+\ListProperties(Hide=100, Hang=true, Progressive=3ex, Style*=$\to $ ,Style2*=$\bullet$ ,Style3*=$\circ$ ,Style4*=\tiny$\blacksquare$)
+& \underline{Implementing basic bioinformatic tools}, such as sequence aligners and pangenome graph builders.
+These are targeted at the unique context of analyzing many complete genome assemblies---a process that I believe will become standard in biology in coming years.
+& \underline{Applying these methods to study genome evolution}, with a specific focus on the role of recombination in genome homogenization and variation.
+This work has begun with studies of the human pangenome, and is now leading me into the laboratory where we will implement an automated platform for yeast evolutionary experiments.
+& \underline{Theory and practice of DNA computing.}
+This poorly-explored problem domain sits at the intersection of my research interests and experience.
+My theoretical work is aimed towards the construction of an instruction set architecture for DNA that will serve as target for the compilation of arbitrary algorithms.
+My practical work considers the key bottleneck in DNA computing and data storage: DNA synthesis, which I am tackling through new bioengineering approaches.
+\end{easylist}
+
+%I study ow do we encode information into DNA efficiently---this includes questions of DNA synthesis and DNA-electrical interfaces based on graphene field effect transistors.
+
+I am a firm believer in open science.
 I develop and share my source code publicly (\url{https://github.com/ekg}) under permissive open licenses.
 I have reviewed for \emph{Bioinformatics}, \emph{Genetics}, \emph{Genome Research}, \emph{Nature}, \emph{Nature Biotechnology}, \emph{Nature Communications}, and \emph{Nucleic Acids Research}.
 %I am a review editor for \emph{Frontiers in Genetics}, \emph{Frontiers in Plant Science}, and \emph{Frontiers in Bioengineering and Biotechnology}.
-I maintain an overview of my contributions at: \url{https://scholar.google.com/citations?user=d5TKoncAAAAJ}.
-I have supported the following written works:
-
-
-%\newpage
-
-\begingroup
-\let\oldthebibliography\thebibliography
-\let\endoldthebibliography\endthebibliography
-\renewenvironment{thebibliography}[1]{
-  \begin{oldthebibliography}{#1}
-    \setlength{\itemsep}{0em}
-    \setlength{\parskip}{0em}
-}
-{
-  \end{oldthebibliography}
-}
-\renewcommand{\section}[2]{}%
-\bibliographystyle{unsrt}
-%\subsection*{References}
-{\footnotesize
-  \bibliography{references}
-}
-\endgroup
+I maintain an overview of my contributions at: \url{https://scholar.google.com/citations?user=d5TKoncAAAAJ}, and include a list of works I have supported at the end of this \textit{curriculum vitae}.
 
 %\newpage
 %\hfill \break
 \hfill \break
 \noindent
-{\LARGE \bf Selected talks}
+{\LARGE \bf Talks}
+\hfill \break
 
 \noindent
 \begin{easylist}
   \ListProperties(Hide=100, Hang=true, Progressive=3ex, Style*=$\multimap $ ,Style2*=$\bullet$ ,Style3*=$\circ$ ,Style4*=\tiny$\blacksquare$)
+  & Building and Understanding the Human Pangenome, Stowers Institute for Medical Research, April 26, 2023. \url{https://youtu.be/ukopTzkfPVk}
   & Understanding all variation in telomere-to-telomere assemblies. ALPACA conference, 2021.
   & The pluralistic promise of pangenome graphs. Workshop in Algorithms on Bioinformatics, 2020.
   & Untangling the pangenome. Cambridge Computational Biology Institute Symposium, 2019.
@@ -292,12 +288,14 @@ I have supported the following written works:
 \hfill \break
 \noindent
 {\LARGE \bf Teaching}
+\hfill \break
 
 \noindent
 \begin{easylist}
   \ListProperties(Hide=100, Hang=true, Progressive=3ex, Style*=$\multimap $ ,Style2*=$\bullet$ ,Style3*=$\circ$ ,Style4*=\tiny$\blacksquare$)
+  & Course lead and instructor. MemPang23, Memphis, Tennessee, May 2023.
   & Instructor. Advanced Bioinformatics course. Utrecht Bioinformatics Center. May 2021.
-  & Course lead and instructor. Computational Pangenomics. Instituto Gulbenkian de Ciência. Oieras, Portugal. March 2018 and September 2019.
+  & Course lead and instructor. Computational Pangenomics. Instituto Gulbenkian de Ciência. Oieras, Portugal. March 2018, September 2019, May 2022.
   & Instructor. NGS alignment and variant calling practical. OBiLab, Consiglio Nazionale delle Ricerche. Napoli, Italy. April 2015.
   & Instructor. Biology for Adaptation Genomics. Weggis, Switzerland. Winters 2015-2018.
   & Instructor. Wellcome Genome Campus Advanced Course on Next Generation Sequencing Bioinformatics. Hinxton, UK. November 2015.
@@ -310,6 +308,7 @@ I have supported the following written works:
 \hfill \break
 \noindent
 {\LARGE \bf Funding}
+\hfill \break
 
 \noindent
 \begin{easylist}
@@ -325,11 +324,15 @@ I have supported the following written works:
 \hfill \break
 \noindent
 {\LARGE \bf Languages}
+\hfill \break
+
+\noindent
+English, Italian, Spanish
 
 \hfill \break
+\hfill \break
 \noindent
-Native English. Fluent Italian. Conversational Spanish.
-
+{\LARGE \bf Publications}
 
 % references in order
 
@@ -398,5 +401,26 @@ Native English. Fluent Italian. Conversational Spanish.
       stewart2011comprehensive,
       barnett2011bamtools,
       10002010map}}}
+
+%\newpage
+
+\begingroup
+\let\oldthebibliography\thebibliography
+\let\endoldthebibliography\endthebibliography
+\renewenvironment{thebibliography}[1]{
+  \begin{oldthebibliography}{#1}
+    \setlength{\itemsep}{0em}
+    \setlength{\parskip}{0em}
+}
+{
+  \end{oldthebibliography}
+}
+\renewcommand{\section}[2]{}%
+\bibliographystyle{unsrt}
+%\subsection*{References}
+{\footnotesize
+  \bibliography{references}
+}
+\endgroup
 
 \end{document}
