@@ -2,9 +2,13 @@
 all: cv.pdf
 
 cv.pdf: cv.tex references.bib
-	pdflatex cv.tex
-	bibtex cv
-	pdflatex cv.tex
+	pdflatex -interaction=nonstopmode -halt-on-error cv.tex
+	bibtex bu1
+	bibtex bu2
+	bibtex bu3
+	bibtex bu4
+	pdflatex -interaction=nonstopmode -halt-on-error cv.tex
+	pdflatex -interaction=nonstopmode -halt-on-error cv.tex
 	htlatex cv.tex
 	mv cv.html x
 #	cat x | sed 's/"indent"/"noindent"/g' | grep -v 'phvr7t-x-x-60' | grep -v '^href="#X' >y #cv.html
